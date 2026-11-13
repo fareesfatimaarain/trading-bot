@@ -1,0 +1,346 @@
+﻿pool: 311 symbols
+25/311 downloaded
+50/311 downloaded
+75/311 downloaded
+100/311 downloaded
+125/311 downloaded
+150/311 downloaded
+175/311 downloaded
+200/311 downloaded
+225/311 downloaded
+250/311 downloaded
+python.exe : WARNING:__main__:download failed for fund_TNSRUSDT.csv: HTTPSConnectionPool(host='fapi.binance.com', 
+port=443): Max retries exceeded with url: /fapi/v1/fundingRate?symbol=TNSRUSDT&startTime=1773230400004&limit=1000 
+(Caused by NewConnectionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to establish a new 
+connection: [WinError 10065] A socket operation was attempted to an unreachable host"))
+At line:1 char:341
++ ... ading bot"; & ".venv\Scripts\python.exe" -m tradingbot.data *> result ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (WARNING:__main_...achable host")):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+WARNING:__main__:download failed for TOWNSUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=TOWNSUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused 
+by NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_TOWNSUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=TOWNSUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for TRBUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=TRBUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused by 
+NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_TRBUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=TRBUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for TREEUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=TREEUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused 
+by NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_TREEUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=TREEUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for TRUMPUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=TRUMPUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused 
+by NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_TRUMPUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=TRUMPUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_TRXUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=TRXUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+275/311 downloaded
+WARNING:__main__:download failed for TSTUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=TSTUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused by 
+NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_TSTUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=TSTUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for TURBOUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=TURBOUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused 
+by NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_TURBOUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=TURBOUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for TUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): Max 
+retries exceeded with url: /api/v3/klines?symbol=TUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused by 
+NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_TUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=TUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for TUTUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=TUTUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused by 
+NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_TUTUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=TUTUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for TWTUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=TWTUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused by 
+NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_TWTUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=TWTUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for UMAUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=UMAUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused by 
+NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_UMAUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=UMAUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_UNIUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=UNIUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for USTCUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=USTCUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused 
+by NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_USTCUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=USTCUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for USUALUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=USUALUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused 
+by NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_USUALUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=USUALUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for VANAUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=VANAUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused 
+by NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_VANAUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=VANAUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for VELODROMEUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', 
+port=443): Max retries exceeded with url: 
+/api/v3/klines?symbol=VELODROMEUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused by 
+NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_VELODROMEUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): 
+Max retries exceeded with url: /fapi/v1/klines?symbol=VELODROMEUSDT&interval=1d&startTime=1514764800000&limit=1500 
+(Caused by NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 
+'fapi.binance.com' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for VETUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=VETUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused by 
+NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_VETUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=VETUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for VIRTUALUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', 
+port=443): Max retries exceeded with url: 
+/api/v3/klines?symbol=VIRTUALUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused by 
+NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_VIRTUALUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): 
+Max retries exceeded with url: /fapi/v1/klines?symbol=VIRTUALUSDT&interval=1d&startTime=1514764800000&limit=1500 
+(Caused by NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 
+'fapi.binance.com' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for VTHOUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=VTHOUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused 
+by NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_VTHOUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=VTHOUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for WAXPUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=WAXPUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused 
+by NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_WAXPUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=WAXPUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for WCTUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=WCTUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused by 
+NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_WCTUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=WCTUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for WIFUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=WIFUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused by 
+NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_WIFUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=WIFUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for WLDUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=WLDUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused by 
+NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_WLDUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=WLDUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for WLFIUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=WLFIUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused 
+by NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_WLFIUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=WLFIUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for WOOUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=WOOUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused by 
+NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_WOOUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=WOOUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for WUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): Max 
+retries exceeded with url: /api/v3/klines?symbol=WUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused by 
+NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_WUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=WUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for XAIUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=XAIUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused by 
+NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_XAIUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=XAIUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_XLMUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=XLMUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for XPLUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=XPLUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused by 
+NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_XPLUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=XPLUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_XRPUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=XRPUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for XTZUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=XTZUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused by 
+NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+300/311 downloaded
+WARNING:__main__:download failed for fut_XTZUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=XTZUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for XVGUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=XVGUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused by 
+NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_XVGUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=XVGUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for XVSUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=XVSUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused by 
+NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_XVSUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=XVSUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for YFIUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=YFIUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused by 
+NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_YFIUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=YFIUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for YGGUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=YGGUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused by 
+NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_YGGUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=YGGUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for ZECUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=ZECUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused by 
+NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_ZECUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=ZECUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for ZENUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=ZENUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused by 
+NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_ZENUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=ZENUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for ZILUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=ZILUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused by 
+NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_ZILUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=ZILUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for ZKCUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=ZKCUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused by 
+NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_ZKCUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=ZKCUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for ZKUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): Max 
+retries exceeded with url: /api/v3/klines?symbol=ZKUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused by 
+NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_ZKUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=ZKUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for ZROUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=ZROUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused by 
+NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_ZROUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=ZROUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for ZRXUSDT_1d.csv: HTTPSConnectionPool(host='data-api.binance.vision', port=443): 
+Max retries exceeded with url: /api/v3/klines?symbol=ZRXUSDT&interval=1d&startTime=1514764800000&limit=1000 (Caused by 
+NameResolutionError("HTTPSConnection(host='data-api.binance.vision', port=443): Failed to resolve 
+'data-api.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+WARNING:__main__:download failed for fut_ZRXUSDT_1d.csv: HTTPSConnectionPool(host='fapi.binance.com', port=443): Max 
+retries exceeded with url: /fapi/v1/klines?symbol=ZRXUSDT&interval=1d&startTime=1514764800000&limit=1500 (Caused by 
+NameResolutionError("HTTPSConnection(host='fapi.binance.com', port=443): Failed to resolve 'fapi.binance.com' ([Errno 
+11001] getaddrinfo failed)"))
+done

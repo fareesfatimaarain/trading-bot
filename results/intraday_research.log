@@ -1,0 +1,41 @@
+576,590 coin-hours, 10 coins, 2020-01-08 .. 2026-10-09, 25 features
+
+=== Next 1h: average absolute move 0.63% ===
+  break-even accuracy with market orders (0.1%/side): 65.8% of calls right (if every move were average)
+  break-even accuracy with limit orders, best case (0.02%/side): 53.2% of calls right (if every move were average)
+
+  gradient-boosted trees:
+  year   accuracy    AUC train acc     market orders  limit orders, best case   (return per year, trading the confident 20%)
+  2022      53.5%  0.549     64.5%              -88%              +32%   | confident calls right 56.2%, avg move caught +0.063% per trade
+  2023      54.6%  0.562     62.2%              -91%               -7%   | confident calls right 57.7%, avg move caught +0.036% per trade
+  2024      53.3%  0.549     60.8%              -90%              +66%   | confident calls right 56.9%, avg move caught +0.071% per trade
+  2025      52.9%  0.541     59.5%              -95%              -20%   | confident calls right 55.7%, avg move caught +0.029% per trade
+  2026      52.1%  0.526     58.9%              -97%              -55%   | confident calls right 52.9%, avg move caught -0.005% per trade
+
+  logistic baseline:
+  year   accuracy    AUC train acc     market orders  limit orders, best case   (return per year, trading the confident 20%)
+  2022      53.5%  0.547     54.1%              -95%              -47%   | confident calls right 54.6%, avg move caught +0.003% per trade
+  2023      54.3%  0.559     53.8%              -82%              +11%   | confident calls right 58.5%, avg move caught +0.051% per trade
+  2024      53.0%  0.544     54.1%              -89%              +45%   | confident calls right 56.6%, avg move caught +0.066% per trade
+  2025      52.6%  0.536     53.7%              -96%              -38%   | confident calls right 55.0%, avg move caught +0.014% per trade
+  2026      51.8%  0.525     53.5%              -89%              -28%   | confident calls right 53.6%, avg move caught +0.014% per trade
+
+=== Next 4h: average absolute move 1.26% ===
+  break-even accuracy with market orders (0.1%/side): 58.0% of calls right (if every move were average)
+  break-even accuracy with limit orders, best case (0.02%/side): 51.6% of calls right (if every move were average)
+
+  gradient-boosted trees:
+  year   accuracy    AUC train acc     market orders  limit orders, best case   (return per year, trading the confident 20%)
+  2022      52.1%  0.533     66.5%              -64%              -28%   | confident calls right 54.1%, avg move caught -0.021% per trade
+  2023      53.9%  0.557     63.8%              -16%              +38%   | confident calls right 58.9%, avg move caught +0.146% per trade
+  2024      52.8%  0.540     62.5%              -36%              +28%   | confident calls right 56.1%, avg move caught +0.106% per trade
+  2025      51.6%  0.523     61.1%              -62%              -27%   | confident calls right 53.3%, avg move caught -0.031% per trade
+  2026      51.4%  0.518     60.1%              -65%              -36%   | confident calls right 49.7%, avg move caught -0.070% per trade
+
+  logistic baseline:
+  year   accuracy    AUC train acc     market orders  limit orders, best case   (return per year, trading the confident 20%)
+  2022      51.4%  0.526     54.3%              -43%               -1%   | confident calls right 52.8%, avg move caught +0.061% per trade
+  2023      53.4%  0.549     53.4%              -21%               +6%   | confident calls right 56.2%, avg move caught +0.079% per trade
+  2024      52.5%  0.534     53.7%              -27%              +23%   | confident calls right 57.0%, avg move caught +0.122% per trade
+  2025      51.8%  0.526     53.3%              -31%              +18%   | confident calls right 56.6%, avg move caught +0.106% per trade
+  2026      51.3%  0.523     52.9%              -32%               -4%   | confident calls right 52.4%, avg move caught +0.034% per trade

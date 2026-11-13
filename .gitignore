@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.pytest_cache/
+# market data is downloaded by `python -m tradingbot.data` (~900 MB)
+data/
+# live paper-trading state and logs
+paper/

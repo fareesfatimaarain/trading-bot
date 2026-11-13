@@ -1,0 +1,12 @@
+120,219 chart windows (64 days x 5 channels), 219 coins
+year    model OOS  model in-sample  BTC hold  IC OOS  IC in-sample  chosen settings
+2021         0.0%             0.0%     41.7%   0.067         0.151  {'channels': 64, 'dropout': 0.5}  (41s)
+2022       -64.1%           189.1%    -64.5%   0.112         0.071  {'channels': 64, 'dropout': 0.5}  (109s)
+2023        95.2%          2836.1%    164.4%   0.077         0.113  {'channels': 64, 'dropout': 0.5}  (246s)
+2024       -19.8%             9.7%    131.4%   0.036         0.115  {'channels': 64, 'dropout': 0.5}  (390s)
+2025       -59.5%            76.7%     -3.4%   0.109         0.082  {'channels': 64, 'dropout': 0.5}  (548s)
+2026       -25.5%           544.6%     -4.5%   0.098         0.184  {'channels': 64, 'dropout': 0.5}  (856s)
+
+deep model, unseen years         CAGR  -26.2%  Sharpe -0.11  maxDD  -88.9%
+deep model, years it trained on  CAGR  229.1%  Sharpe  1.82  maxDD  -57.9%
+BTC buy and hold                 CAGR   19.5%  Sharpe  0.60  maxDD  -77.6%

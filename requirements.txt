@@ -1,0 +1,7 @@
+numpy>=2.5
+pandas>=3.0
+requests>=2.34
+scikit-learn>=1.9
+joblib>=1.6
+torch>=2.14
+pytest>=9.1

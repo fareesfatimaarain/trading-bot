@@ -1,0 +1,21 @@
+576,150 coin-hours. Random entry hits the target first: long 18.3%, short 17.8%. Break-even win rate after costs is roughly 35%.
+
+Does higher confidence mean more wins? Actual target-first rate by confidence decile (1 = least confident, 10 = most), test years:
+  1:6%  2:10%  3:14%  4:16%  5:18%  6:19%  7:21%  8:23%  9:25%  10:29%
+
+Trading only the most confident signals (long and short combined), 10% of the account per trade:
+
+  top 10.0% confidence: 11976 trades, won 26.5%, avg -0.05% per trade after costs
+   2022: 2144.0 trades, won 27%, account -8%  2023: 2713.0 trades, won 27%, account -8%  2024: 2542.0 trades, won 27%, account +3%  2025: 2415.0 trades, won 27%, account -5%  2026: 2162.0 trades, won 26%, account -46%
+
+  top 5.0% confidence: 7461 trades, won 27.9%, avg -0.01% per trade after costs
+   2022: 1257.0 trades, won 29%, account +12%  2023: 1702.0 trades, won 28%, account -0%  2024: 1582.0 trades, won 28%, account +10%  2025: 1522.0 trades, won 29%, account +9%  2026: 1398.0 trades, won 26%, account -36%
+
+  top 2.0% confidence: 3274 trades, won 30.2%, avg +0.12% per trade after costs
+   2022: 462.0 trades, won 31%, account +8%  2023: 783.0 trades, won 30%, account +7%  2024: 635.0 trades, won 33%, account +33%  2025: 670.0 trades, won 30%, account +8%  2026: 724.0 trades, won 28%, account -17%
+
+  top 1.0% confidence: 1552 trades, won 32.5%, avg +0.26% per trade after costs
+   2022: 205.0 trades, won 31%, account +5%  2023: 371.0 trades, won 30%, account +7%  2024: 238.0 trades, won 40%, account +26%  2025: 324.0 trades, won 31%, account +6%  2026: 414.0 trades, won 32%, account -3%
+
+  top 0.5% confidence: 652 trades, won 34.4%, avg +0.27% per trade after costs
+   2022: 82.0 trades, won 38%, account +10%  2023: 142.0 trades, won 30%, account +2%  2024: 70.0 trades, won 44%, account +6%  2025: 151.0 trades, won 38%, account +5%  2026: 207.0 trades, won 30%, account -5%
